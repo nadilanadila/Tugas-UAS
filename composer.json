@@ -1,0 +1,10 @@
+{
+    "name": "pejuangcoder/belajar-composer",
+    "description": "Test latihan composer",
+    "type": "project",
+    "license": "GPL",
+    "require": {},
+    "scripts": {
+      "server": "php -S localhost:8080"
+    }
+}

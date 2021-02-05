@@ -1,0 +1,43 @@
+@import materialize
+
+body
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+
+main
+  flex: 1 0 auto
+
+nav
+  .nav-wrapper
+    .container
+      .brand-logo
+        font-size: 1.5rem
+
+.container
+  width: 90%
+
+.card
+  .card-content
+    padding: 20px
+
+.card-content
+  h4
+    margin: 0 0 .5em 0
+
+  h5
+    margin: 0 0 .5em 0
+
+  span
+    padding: .25em
+
+  .header-content
+    background-color: #ecf0f1
+    color: #7f8c8d
+
+.card-action
+  .btn-small
+    @extend .right
+
+.footer-copyright
+  text-align: center
